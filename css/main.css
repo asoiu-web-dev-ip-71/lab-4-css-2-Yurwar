@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+    font-weight: 100;
+}
+
+#content {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: gray;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+#menu li {
+    display: inline;
+    margin-right: 1%;
+    padding: 0.5%;
+}
+#menu {
+    margin: 0;
+    text-align: right;
+}
+#menu > li > a {
+    color: gray;
+    font-size: large;
+}
+.post{
+    display: block;
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.details{
+    display: inline-block;
+    width: 23%;
+    padding: 0 1% 1% 0;
+}
+.details > h2 > a {
+    color: #dc0000;
+    font-size: larger;
+}
+.details > p > a {
+    color: gray;
+    border-bottom: 1px dotted;
+}
+.body{
+    line-height: 1.5;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    border-left: 1px solid gray;
+    width: 70%;
+}
+
+.col {
+    margin-right: 2%;
+    display: inline-block;
+    width: 30%;
+}
+.col > h3 > a {
+    color: black;
+    font-size: larger;
+}
+.col > p > a {
+    color: #dc0000;
+}
+#footer {
+    border-top: 1px solid gray;
+    padding: 1% 1% 1% 0;
+}
+#footer > p > a {
+    color: #dc0000;
+}
+
